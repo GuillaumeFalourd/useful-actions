@@ -35,6 +35,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Auto Approve](https://github.com/hmarr/auto-approve-action): Github Action to automatically approve pull requests.
 
+[![Cache](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cache.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cache.yml)
+
+[Cache](https://github.com/actions/cache): Github Action to cache dependencies and build outputs to improve workflow execution time.
+
 [![Super Linter](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/super-linter.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/super-linter.yml)
 
 [Super Linter](https://github.com/github/super-linter): Github Action to help validate your source code.
