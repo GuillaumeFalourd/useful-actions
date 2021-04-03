@@ -3,9 +3,9 @@
 ## How to create new actions
 
 The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is great to understand how to create:
-- a [Docker Container Action](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
-- a [Javascript Action](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action)
-- a [Composite Run Steps Action](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
+- [Docker Container Actions](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
+- [Javascript Actions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action)
+- [Composite Run Steps Actions](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
 
 ## What you need to know to use actions
 
