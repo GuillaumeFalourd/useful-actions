@@ -1,13 +1,8 @@
 # useful-github-actions
 
-## How to create new actions
+This repository lists some useful generic Actions to use in your Github workflows and repositories.
 
-The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is great to understand how to create:
-- [Docker Container Actions](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
-- [Javascript Actions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action)
-- [Composite Run Steps Actions](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
-
-## What you need to know to use actions
+## Good To Know
 
 - [Usage Limits](https://docs.github.com/en/actions/reference/usage-limits-billing-and-administration)
 - [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
@@ -15,8 +10,6 @@ The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is gr
 - [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
 ## Useful Actions
-
-List of Actions to perfom useful tasks in your Github workflows and repositories:
 
 - [Checkout](https://github.com/actions/checkout)
 Github Action to checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it.
@@ -30,8 +23,21 @@ Github Action to download artifacts from your build ([example](https://docs.gith
 - [Add Label](https://github.com/actions-ecosystem/action-add-labels)
 GitHub Action to add GitHub labels to an issue or a pull request.
 
+- [Pull Request](https://github.com/repo-sync/pull-request)
+GitHub Action to create pull requests automatically.
+
+- [Auto Approve](https://github.com/hmarr/auto-approve-action)
+Github Action to automatically approve pull requests.
+
 - [Super Linter](https://github.com/github/super-linter)
 Github Action to help validate your source code.
 
 - [Horusec](https://github.com/fike/horusec-action)
 Github Action to identify vulnerabilities in your project.
+
+## How to create new actions
+
+The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is great to understand how to create:
+- [Docker Container Actions](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
+- [Javascript Actions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action)
+- [Composite Run Steps Actions](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
