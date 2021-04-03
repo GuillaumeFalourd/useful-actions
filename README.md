@@ -1,4 +1,4 @@
-# useful-github-actions
+# useful-actions
 
 ![title](/useful-github-actions.png)
 
