@@ -1,0 +1,14 @@
+name: Horusec
+
+on: [push]
+
+jobs:
+  checking_code:
+    runs-on: ubuntu-latest
+    name: Horusec Scan
+    steps:
+      - name: Run Horusec
+        id: run_horusec
+        uses: fike/horusec-action@v0.1
+        with:
+          arguments: -p="./" --ignore="**/.vscode/**, **/*.env, **/.mypy_cache/**, **/tests/**"
