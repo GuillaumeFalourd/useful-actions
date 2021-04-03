@@ -1,7 +1,6 @@
 name: Pull Request
 
-on:
-  push:
+on: [push, workflow_dispatch]
 
 jobs:
   pull-request:

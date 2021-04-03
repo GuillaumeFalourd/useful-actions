@@ -1,6 +1,6 @@
 name: Horusec
 
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   checking_code:
