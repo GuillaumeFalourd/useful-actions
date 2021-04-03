@@ -12,7 +12,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 ## Useful Actions
 
 - [Checkout](https://github.com/actions/checkout)
-Github Action to checks-out your repository under $GITHUB_WORKSPACE, so your workflow can access it.
+Github Action to checks-out your repository under `$GITHUB_WORKSPACE`, so your workflow can access it.
 
 - [Upload Artifact](https://github.com/actions/upload-artifact)
 Github Action to share data between jobs and store data once a workflow is complete  ([example](https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts#passing-data-between-jobs-in-a-workflow)).
