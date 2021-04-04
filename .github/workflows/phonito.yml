@@ -18,8 +18,9 @@ jobs:
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag myapp:${{ steps.vars.outputs.docker_tag }}
 
-      - name: Scan with Phonito Security
-        uses: phonito/phonito-scanner-action@master
-        with:
-          image: myapp:${{ steps.vars.outputs.docker_tag }}
-          phonito-token: ${{ secrets.PHONITO_TOKEN }}
+      # Comment as PHONITO secret not set
+      # - name: Scan with Phonito Security
+      #   uses: phonito/phonito-scanner-action@master
+      #   with:
+      #     image: myapp:${{ steps.vars.outputs.docker_tag }}
+      #     phonito-token: ${{ secrets.PHONITO_TOKEN }}
