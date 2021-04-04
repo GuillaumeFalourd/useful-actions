@@ -15,6 +15,6 @@ according to the following guide:
 
 - Contents should be written in English.
 
-- Add new actions on the `Useful Actions` section on the main README file.
+- Add new actions on the [Useful Actions section](https://github.com/GuillaumeFalourd/useful-actions#-useful-actions) on the main README file (respect an `alphabetical` order).
 
 - New actions should be associated to a workflow example on the `.github/workflows` directory, based on the official action repository.

@@ -13,7 +13,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ## 🔎 Useful Actions
 
-### ♻️ Generic
+### ♻️ Global Actions
 
 [![Add Label](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml)
 
@@ -61,7 +61,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Download Artifact](https://github.com/actions/download-artifact): Github Action to download artifacts from your build ([example](https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts#passing-data-between-jobs-in-a-workflow)).
 
-### 🐳 Docker
+### 🐳 Docker Actions
 
 [![Hadolint](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml)
 
