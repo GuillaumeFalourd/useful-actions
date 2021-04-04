@@ -41,6 +41,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Pull Request](https://github.com/repo-sync/pull-request): GitHub Action to create pull requests automatically.
 
+[![Stale](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/stale.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/stale.yml)
+
+[Stale](https://github.com/actions/stale): GitHub Action to warn and then close issues and PRs that have had no activity for a specified amount of time.
+
 [![Release](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/release.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/release.yml)
 
 [Release](https://github.com/softprops/action-gh-release):  A GitHub Action for creating GitHub Releases on Linux, Windows, and macOS virtual environments.
