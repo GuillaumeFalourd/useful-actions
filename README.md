@@ -31,6 +31,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Pull Request](https://github.com/repo-sync/pull-request): GitHub Action to create pull requests automatically.
 
+[![Release](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/release.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/release.yml)
+
+[Release](https://github.com/softprops/action-gh-release):  A GitHub Action for creating GitHub Releases on Linux, Windows, and macOS virtual environments
+
 [![Auto approve](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-approve.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-approve.yml)
 
 [Auto Approve](https://github.com/hmarr/auto-approve-action): Github Action to automatically approve pull requests.
