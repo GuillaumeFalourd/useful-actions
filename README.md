@@ -63,6 +63,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ### Docker
 
+[![Hadolint](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml)
+
+[Hadolint](https://github.com/burdzwastaken/hadolint-action): Github Action to run Hadolint and reports violations given a Dockerfile within a repository on a pull request.
+
 [![Publish Docker](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/publish-docker.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/publish-docker.yml)
 
 [Publish Docker](https://github.com/elgohr/Publish-Docker-Github-Action): Github Action to build and push containers.
