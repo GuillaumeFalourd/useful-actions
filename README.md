@@ -13,6 +13,8 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ## Useful Actions
 
+### Generic
+
 [![Add Label](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml)
 
 [Add Label](https://github.com/actions-ecosystem/action-add-labels): GitHub Action to add GitHub labels to an issue or a pull request.
@@ -58,6 +60,12 @@ This repository lists some useful generic Actions to use in your Github workflow
 [Upload Artifact](https://github.com/actions/upload-artifact): Github Action to share data between jobs and store data once a workflow is complete  ([example](https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts#passing-data-between-jobs-in-a-workflow)).
 
 [Download Artifact](https://github.com/actions/download-artifact): Github Action to download artifacts from your build ([example](https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts#passing-data-between-jobs-in-a-workflow)).
+
+### Docker
+
+[![Publish Docker](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/publish-docker.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/publish-docker.yml)
+
+[Publish Docker](https://github.com/elgohr/Publish-Docker-Github-Action): Github Action to build and push containers.
 
 ## How to create new actions
 
