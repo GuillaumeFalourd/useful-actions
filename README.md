@@ -58,6 +58,9 @@ This repository lists some useful generic Actions to use in your Github workflow
 ## How to create new actions
 
 The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is great to understand how to create:
+
 - [Docker Container Actions](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
 - [Javascript Actions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action)
 - [Composite Run Steps Actions](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
+
+This tool can be used to test actions locally: [Act](https://github.com/nektos/act)
