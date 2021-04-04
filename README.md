@@ -4,16 +4,16 @@
 
 This repository lists some useful generic Actions to use in your Github workflows and repositories.
 
-## Good To Know
+## 💡 Good To Know
 
 - [Usage Limits](https://docs.github.com/en/actions/reference/usage-limits-billing-and-administration)
 - [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
 - [Authentication in a workflow](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
 - [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
-## Useful Actions
+## 🔎 Useful Actions
 
-### Generic
+### ♻️ Generic
 
 [![Add Label](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml)
 
@@ -61,7 +61,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Download Artifact](https://github.com/actions/download-artifact): Github Action to download artifacts from your build ([example](https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts#passing-data-between-jobs-in-a-workflow)).
 
-### Docker
+### 🐳 Docker
 
 [![Hadolint](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml)
 
@@ -75,7 +75,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Publish Docker](https://github.com/elgohr/Publish-Docker-Github-Action): Github Action to build and push containers.
 
-## How to create new actions
+## 🧐 How to create new actions
 
 The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is great to understand how to create:
 
