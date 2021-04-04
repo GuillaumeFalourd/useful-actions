@@ -67,6 +67,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Hadolint](https://github.com/burdzwastaken/hadolint-action): Github Action to run Hadolint and reports violations given a Dockerfile within a repository on a pull request.
 
+[![Phonito](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/phonito.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/phonito.yml)
+
+[Phonito](https://github.com/phonito/phonito-scanner-action): Github Action to automate scanning Docker images for OS & library vulnerabilities. Need a free Phonito Security account at [https://phonito.io](https://phonito.io).
+
 [![Publish Docker](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/publish-docker.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/publish-docker.yml)
 
 [Publish Docker](https://github.com/elgohr/Publish-Docker-Github-Action): Github Action to build and push containers.
