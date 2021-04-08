@@ -84,3 +84,7 @@ The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is gr
 - [Composite Run Steps Actions](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
 
 This tool can be used to test actions locally: [Act](https://github.com/nektos/act)
+
+## 🤝 Contribution
+
+Would like to contribute to the repository? Here are the [guidelines](CONTRIBUTING.md) 🚀
