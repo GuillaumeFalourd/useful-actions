@@ -59,6 +59,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Release](https://github.com/marketplace/actions/gh-release):  A GitHub Action for creating GitHub Releases on Linux, Windows, and macOS virtual environments.
 
+[![Recreate Release](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/recreate-release.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/recreate-release.yml)
+
+[Recreate Release](https://github.com/GongT/actions-recreate-release): A Github Action to delete previous release by `tag_name` or `release_name` and then call `actions/create-release` to create it again.
+
 [![Super Linter](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/super-linter.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/super-linter.yml)
 
 [Super Linter](https://github.com/marketplace/actions/super-linter): Github Action to help validate your source code.
