@@ -14,6 +14,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 - [How to test actions locally](https://github.com/GuillaumeFalourd/useful-actions#-how-to-test-actions-locally)
 - [Contribution](CONTRIBUTING.md)
 
+***
 
 ## 💡 Good To Know
 
@@ -22,7 +23,11 @@ This repository lists some useful generic Actions to use in your Github workflow
 - [Authentication in a workflow](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
 - [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
+***
+
 ## 🔎 Useful Actions
+
+***
 
 ### 🌐 Global Actions
 
@@ -94,6 +99,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Download Artifact](https://github.com/marketplace/actions/download-a-build-artifact): Github Action to download artifacts from your build ([example](https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts#passing-data-between-jobs-in-a-workflow)).
 
+***
 
 ### 🐳 Docker Actions
 
@@ -109,6 +115,8 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Publish Docker](https://github.com/marketplace/actions/publish-docker): Github Action to build and push containers.
 
+***
+
 ## 🧐 How to create new actions
 
 The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is great to understand how to create:
@@ -117,11 +125,15 @@ The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is gr
 - [Javascript Actions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action)
 - [Composite Run Steps Actions](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
 
+***
+
 ## 🤖 How to test actions locally
 
 This tool can be used to test actions locally: [Act](https://github.com/nektos/act)
 
 <img width="684" alt="Screenshot" src="https://user-images.githubusercontent.com/22433243/114316117-89c5ff00-9ad8-11eb-9408-bd163d39daea.png">
+
+***
 
 ## 🤝 Contribution
 
