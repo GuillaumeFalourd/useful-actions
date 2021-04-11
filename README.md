@@ -106,7 +106,12 @@ The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is gr
 - [Javascript Actions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action)
 - [Composite Run Steps Actions](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
 
+## 🤖 How to test actions locally
+
 This tool can be used to test actions locally: [Act](https://github.com/nektos/act)
+
+<img width="684" alt="Screenshot" src="https://user-images.githubusercontent.com/22433243/114316117-89c5ff00-9ad8-11eb-9408-bd163d39daea.png">
+
 
 ## 🤝 Contribution
 
