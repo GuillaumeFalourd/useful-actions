@@ -55,6 +55,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Pull Request](https://github.com/marketplace/actions/github-pull-request-action): GitHub Action to create pull requests automatically.
 
+[![Set Secrets](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/set-secrets.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/set-secrets.yml)
+
+[Set Secrets](https://github.com/marketplace/actions/set-action-secret): Github Action to Create or edit actions secrets in repository or organizations.
+
 [![Stale](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/stale.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/stale.yml)
 
 [Stale](https://github.com/marketplace/actions/close-stale-issues): GitHub Action to warn and then close issues and PRs that have had no activity for a specified amount of time.
