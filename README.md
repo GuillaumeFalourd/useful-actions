@@ -111,3 +111,5 @@ This tool can be used to test actions locally: [Act](https://github.com/nektos/a
 ## 🤝 Contribution
 
 Would like to contribute to the repository? Here are the [guidelines](CONTRIBUTING.md) 🚀
+
+## Found this repository useful? 👉 ⭐️
