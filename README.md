@@ -4,6 +4,17 @@
 
 This repository lists some useful generic Actions to use in your Github workflows and repositories.
 
+## Summary
+
+- [Good to Know](https://github.com/GuillaumeFalourd/useful-actions#-good-to-know)
+- [Useful Actions](https://github.com/GuillaumeFalourd/useful-actions#-useful-actions)
+  - [Global Actions](https://github.com/GuillaumeFalourd/useful-actions#-global-actions)
+  - [Docker Actions](https://github.com/GuillaumeFalourd/useful-actions#-docker-actions)
+- [How to create new actions](https://github.com/GuillaumeFalourd/useful-actions#-how-to-create-new-actions)
+- [How to test actions locally](https://github.com/GuillaumeFalourd/useful-actions#-how-to-test-actions-locally)
+- [Contribution](CONTRIBUTING.md)
+
+
 ## 💡 Good To Know
 
 - [Usage Limits](https://docs.github.com/en/actions/reference/usage-limits-billing-and-administration)
@@ -111,7 +122,6 @@ The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is gr
 This tool can be used to test actions locally: [Act](https://github.com/nektos/act)
 
 <img width="684" alt="Screenshot" src="https://user-images.githubusercontent.com/22433243/114316117-89c5ff00-9ad8-11eb-9408-bd163d39daea.png">
-
 
 ## 🤝 Contribution
 
