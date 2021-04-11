@@ -29,7 +29,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ***
 
-### 🌐 Global Actions
+## 🌐 Global Actions
 
 [![Add Label](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml)
 
@@ -101,7 +101,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ***
 
-### 🐳 Docker Actions
+## 🐳 Docker Actions
 
 [![Hadolint](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml)
 
