@@ -59,6 +59,8 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Set Secrets](https://github.com/marketplace/actions/set-action-secret): Github Action to Create or edit actions secrets in repository or organizations.
 
+<img width="731" alt="Example" src="https://user-images.githubusercontent.com/22433243/114315936-ac0b4d00-9ad7-11eb-8841-4e61b75b44ed.png">
+
 [![Stale](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/stale.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/stale.yml)
 
 [Stale](https://github.com/marketplace/actions/close-stale-issues): GitHub Action to warn and then close issues and PRs that have had no activity for a specified amount of time.
