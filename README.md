@@ -71,6 +71,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Pull Request](https://github.com/marketplace/actions/github-pull-request-action): GitHub Action to create pull requests automatically.
 
+[![Purge Artifacts](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/purge-artifacts.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/purge-artifacts.yml)
+
+[Purge Artifacts](https://github.com/marketplace/actions/purge-artifacts): Github Action responsible for deleting old artifacts by setting expire duration.
+
 [![Set Secrets](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/set-secrets.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/set-secrets.yml)
 
 [Set Secrets](https://github.com/marketplace/actions/set-action-secret): Github Action to Create or edit actions secrets in repository or organizations.
@@ -83,15 +87,15 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [![Recreate Release](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/recreate-release.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/recreate-release.yml)
 
-[Recreate Release](https://github.com/GongT/actions-recreate-release): A Github Action to delete previous release by `tag_name` or `release_name` and then call `actions/create-release` to create it again.
+[Recreate Release](https://github.com/GongT/actions-recreate-release): Github Action to delete previous release by `tag_name` or `release_name` and then call `actions/create-release` to create it again.
 
 [![Release](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/release.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/release.yml)
 
-[Release](https://github.com/marketplace/actions/gh-release):  A GitHub Action for creating GitHub Releases on Linux, Windows, and macOS virtual environments.
+[Release](https://github.com/marketplace/actions/gh-release): GitHub Action for creating GitHub Releases on Linux, Windows, and macOS virtual environments.
 
 [![Repository-Dispatch](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repository-dispatch.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repository-dispatch.yml) [![Repository-Dispatch-Triggered](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repository-dispatch-triggered.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repository-dispatch-triggered.yml)
 
-[Repository-Dispatch](https://github.com/marketplace/actions/repository-dispatch): A GitHub action to create a repository dispatch event.
+[Repository-Dispatch](https://github.com/marketplace/actions/repository-dispatch): GitHub Action to create a repository dispatch event.
 
 [![Super Linter](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/super-linter.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/super-linter.yml)
 
