@@ -4,6 +4,18 @@
 
 This repository lists some useful generic Actions to use in your Github workflows and repositories.
 
+## Summary
+
+- [Good to Know](https://github.com/GuillaumeFalourd/useful-actions#-good-to-know)
+- [Useful Actions](https://github.com/GuillaumeFalourd/useful-actions#-useful-actions)
+  - [Global Actions](https://github.com/GuillaumeFalourd/useful-actions#-global-actions)
+  - [Docker Actions](https://github.com/GuillaumeFalourd/useful-actions#-docker-actions)
+- [How to create new actions](https://github.com/GuillaumeFalourd/useful-actions#-how-to-create-new-actions)
+- [How to test actions locally](https://github.com/GuillaumeFalourd/useful-actions#-how-to-test-actions-locally)
+- [Contribution](CONTRIBUTING.md)
+
+***
+
 ## 💡 Good To Know
 
 - [Usage Limits](https://docs.github.com/en/actions/reference/usage-limits-billing-and-administration)
@@ -11,13 +23,21 @@ This repository lists some useful generic Actions to use in your Github workflow
 - [Authentication in a workflow](https://docs.github.com/en/actions/reference/authentication-in-a-workflow)
 - [Creating a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
+***
+
 ## 🔎 Useful Actions
 
-### 🌐 Global Actions
+***
+
+## 🌐 Global Actions
 
 [![Add Label](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml)
 
 [Add Label](https://github.com/marketplace/actions/actions-ecosystem-add-labels): GitHub Action to add GitHub labels to an issue or a pull request.
+
+[![App Token](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/app-token.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/app-token.yml)
+
+[App Token](https://github.com/marketplace/actions/github-app-token): Github Action to impersonate a GitHub App when `secrets.GITHUB_TOKEN`'s limitations are too restrictive and a personal access token is not suitable.
 
 [![Auto approve](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-approve.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-approve.yml)
 
@@ -51,9 +71,19 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Pull Request](https://github.com/marketplace/actions/github-pull-request-action): GitHub Action to create pull requests automatically.
 
+[![Set Secrets](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/set-secrets.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/set-secrets.yml)
+
+[Set Secrets](https://github.com/marketplace/actions/set-action-secret): Github Action to Create or edit actions secrets in repository or organizations.
+
+<img width="731" alt="Example" src="https://user-images.githubusercontent.com/22433243/114315936-ac0b4d00-9ad7-11eb-8841-4e61b75b44ed.png">
+
 [![Stale](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/stale.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/stale.yml)
 
 [Stale](https://github.com/marketplace/actions/close-stale-issues): GitHub Action to warn and then close issues and PRs that have had no activity for a specified amount of time.
+
+[![Recreate Release](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/recreate-release.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/recreate-release.yml)
+
+[Recreate Release](https://github.com/GongT/actions-recreate-release): A Github Action to delete previous release by `tag_name` or `release_name` and then call `actions/create-release` to create it again.
 
 [![Release](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/release.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/release.yml)
 
@@ -75,8 +105,9 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Download Artifact](https://github.com/marketplace/actions/download-a-build-artifact): Github Action to download artifacts from your build ([example](https://docs.github.com/en/actions/guides/storing-workflow-data-as-artifacts#passing-data-between-jobs-in-a-workflow)).
 
+***
 
-### 🐳 Docker Actions
+## 🐳 Docker Actions
 
 [![Hadolint](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/hadolint.yml)
 
@@ -90,6 +121,8 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Publish Docker](https://github.com/marketplace/actions/publish-docker): Github Action to build and push containers.
 
+***
+
 ## 🧐 How to create new actions
 
 The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is great to understand how to create:
@@ -98,7 +131,15 @@ The [Github tutorial](https://docs.github.com/en/actions/creating-actions) is gr
 - [Javascript Actions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action)
 - [Composite Run Steps Actions](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
 
+***
+
+## 🤖 How to test actions locally
+
 This tool can be used to test actions locally: [Act](https://github.com/nektos/act)
+
+<img width="684" alt="Screenshot" src="https://user-images.githubusercontent.com/22433243/114316117-89c5ff00-9ad8-11eb-9408-bd163d39daea.png">
+
+***
 
 ## 🤝 Contribution
 
