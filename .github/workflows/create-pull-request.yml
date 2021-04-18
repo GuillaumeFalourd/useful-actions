@@ -1,6 +1,9 @@
 name: Create Pull Request
 
-on: [workflow_dispatch]
+on:
+  schedule:
+  - cron: "0 1 * * *" # Runs at 01:00 UTC everyday
+  workflow_dispatch:
 
 jobs:
   createPullRequest:
@@ -15,7 +18,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.ACCESS_TOKEN }}
           commit-message: Update report
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
