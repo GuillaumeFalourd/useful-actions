@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Make changes to pull request
-        run: date > checkout-workflow.txt
+        run: date > pull-request-workflow.txt
 
       - name: Create Pull Request
         id: cpr
