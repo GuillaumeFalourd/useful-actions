@@ -55,6 +55,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Compress Images](https://github.com/marketplace/actions/image-actions): Github Action to automatically compresses JPEGs, PNGs and WebPs in Pull Requests.
 
+[![Create Pull Request](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/create-pull-request.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/create-pull-request.yml)
+
+[Create Pull Request](https://github.com/marketplace/actions/create-pull-request): GitHub action to create a pull request for changes to your repository in the actions workspace.
+
 [![First Interaction](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/first-interaction.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/first-interaction.yml)
 
 [First Interaction](https://github.com/marketplace/actions/first-interaction): Github Action to filter pull requests and issues from first-time contributors.
