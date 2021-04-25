@@ -1,4 +1,4 @@
-name: Get information
+name: Get Workflow Origin Information (PR)
 on:
   pull_request:
     branches: ['main']
