@@ -1,4 +1,4 @@
-name: Get workflow Origin Information
+name: Get Workflow Origin Information (Run)
 
 on:
   workflow_run:
