@@ -55,6 +55,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Checkout](https://github.com/marketplace/actions/checkout): Github Action to checks-out your repository under `$GITHUB_WORKSPACE`, so your workflow can access it.
 
+[![Commit And Push](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/commit-and-push.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/commit-and-push.yml)
+
+[Commit And Push](https://github.com/marketplace/actions/git-commit-and-push): Github Action to commit and push new code to the repository.
+
 [![Compress Images](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/compress-image.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/compress-image.yml)
 
 [Compress Images](https://github.com/marketplace/actions/image-actions): Github Action to automatically compresses JPEGs, PNGs and WebPs in Pull Requests.
