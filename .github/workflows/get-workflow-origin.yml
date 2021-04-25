@@ -1,0 +1,39 @@
+name: Get information
+on:
+  pull_request:
+    branches: ['main']
+
+jobs:
+  get-info:
+    name: "Get information about the source run"
+    runs-on: ubuntu-latest
+    outputs:
+      sourceHeadRepo: ${{ steps.workflow-run-info.outputs.sourceHeadRepo }}
+      sourceHeadBranch: ${{ steps.workflow-run-info.outputs.sourceHeadBranch }}
+      sourceHeadSha: ${{ steps.workflow-run-info.outputs.sourceHeadSha }}
+      mergeCommitSha: ${{ steps.workflow-run-info.outputs.mergeCommitSha }}
+      targetCommitSha: ${{ steps.workflow-run-info.outputs.targetCommitSha }}
+      pullRequestNumber: ${{ steps.workflow-run-info.outputs.pullRequestNumber }}
+      pullRequestLabels: ${{ steps.workflow-run-info.outputs.pullRequestLabels }}
+      targetBranch: ${{ steps.source-run-info.outputs.targetBranch }}
+      sourceEvent: ${{ steps.workflow-run-info.outputs.sourceEvent }}
+    steps:
+      - name: "Get information about the current run"
+        uses: potiuk/get-workflow-origin@v1_1
+        id: workflow-run-info
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  test-info:
+    runs-on: ubuntu-latest
+    needs: get-info
+    steps:
+      - run: echo ${{needs.get-info.outputs.sourceHeadRepo}}
+      - run: echo ${{needs.get-info.outputs.sourceHeadBranch}}
+      - run: echo ${{needs.get-info.outputs.sourceHeadSha}}
+      - run: echo ${{needs.get-info.outputs.mergeCommitSha}}
+      - run: echo ${{needs.get-info.outputs.targetCommitSha}}
+      - run: echo ${{needs.get-info.outputs.pullRequestNumber}}
+      - run: echo ${{needs.get-info.outputs.pullRequestLabels}}
+      - run: echo ${{needs.get-info.outputs.targetBranch}}
+      - run: echo ${{needs.get-info.outputs.sourceEvent}}

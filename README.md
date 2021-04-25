@@ -71,6 +71,12 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [First Interaction](https://github.com/marketplace/actions/first-interaction): Github Action to filter pull requests and issues from first-time contributors.
 
+[![Get Workflow Origin]](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/get-workflow-origin.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/get-workflow-origin.yml)
+
+[![Get Workflow Origin Information]](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/get-workflow-origin-run.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/get-workflow-origin-run.yml)
+
+[Get Workflow Origin](https://github.com/potiuk/get-workflow-origin): Github Action to provide information about the pull requests that triggered the workflow for the `pull_request` and `pull_request_review` events or for the `workflow_run` event that is triggered by one of those events.
+
 [![Github Script](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/github-script.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/github-script.yml)
 
 [Github Script](https://github.com/marketplace/actions/github-script): Github Action to make it easy to quickly write a script in your workflow that uses the GitHub API and the workflow run context.
