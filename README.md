@@ -67,6 +67,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Create Pull Request](https://github.com/marketplace/actions/create-pull-request): GitHub action to create a pull request for changes to your repository in the actions workspace.
 
+[![Env Vars](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/env-vars.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/env-vars.yml)
+
+[Env Vars](https://github.com/marketplace/actions/github-environment-variables-action): GitHub action to expose useful environment variables.
+
 [![First Interaction](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/first-interaction.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/first-interaction.yml)
 
 [First Interaction](https://github.com/marketplace/actions/first-interaction): Github Action to filter pull requests and issues from first-time contributors.
