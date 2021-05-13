@@ -35,7 +35,7 @@ jobs:
           echo "${{ steps.branch-name.outputs.current_branch }}"
         # Outputs: "main" the branch that triggered the push event.
       
-      - name: Get Ref brach name
+      - name: Get Ref branch name
         run: |
           echo "${{ steps.branch-name.outputs.ref_branch }}"
         #  Outputs: "main" for non PR branches | "1/merge" for a PR branch
