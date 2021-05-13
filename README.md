@@ -43,6 +43,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Auto Approve](https://github.com/marketplace/actions/auto-approve): Github Action to automatically approve pull requests.
 
+[![Branch Names](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/branch-names.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/branch-names.yml)
+
+[Branc Names](https://github.com/marketplace/actions/branch-names): Github Action to get branch or tag information without the `/ref/*` prefix.
+
 [![Cache](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cache.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cache.yml)
 
 [Cache](https://github.com/marketplace/actions/cache): Github Action to cache dependencies and build outputs to improve workflow execution time.
