@@ -43,9 +43,13 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Auto Approve](https://github.com/marketplace/actions/auto-approve): Github Action to automatically approve pull requests.
 
+[![Auto merge](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-merge.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-merge.yml)
+
+[Auto Merge](https://github.com/marketplace/actions/merge-pull-requests): GitHub action to automatically merge pull requests when they are ready (`automerged` label).
+
 [![Branch Names](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/branch-names.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/branch-names.yml)
 
-[Branc Names](https://github.com/marketplace/actions/branch-names): Github Action to get branch or tag information without the `/ref/*` prefix.
+[Branch Names](https://github.com/marketplace/actions/branch-names): Github Action to get branch or tag information without the `/ref/*` prefix.
 
 [![Cache](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cache.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cache.yml)
 
@@ -55,13 +59,29 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Checkout](https://github.com/marketplace/actions/checkout): Github Action to checks-out your repository under `$GITHUB_WORKSPACE`, so your workflow can access it.
 
+[![Commit And Push](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/commit-and-push.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/commit-and-push.yml)
+
+[Commit And Push](https://github.com/marketplace/actions/git-commit-and-push): Github Action to commit and push new code to the repository.
+
 [![Compress Images](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/compress-image.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/compress-image.yml)
 
 [Compress Images](https://github.com/marketplace/actions/image-actions): Github Action to automatically compresses JPEGs, PNGs and WebPs in Pull Requests.
 
+[![Create Pull Request](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/create-pull-request.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/create-pull-request.yml)
+
+[Create Pull Request](https://github.com/marketplace/actions/create-pull-request): GitHub action to create a pull request for changes to your repository in the actions workspace.
+
+[![Env Vars](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/env-vars.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/env-vars.yml)
+
+[Env Vars](https://github.com/marketplace/actions/github-environment-variables-action): GitHub action to expose useful environment variables.
+
 [![First Interaction](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/first-interaction.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/first-interaction.yml)
 
 [First Interaction](https://github.com/marketplace/actions/first-interaction): Github Action to filter pull requests and issues from first-time contributors.
+
+[![Get Workflow Origin](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/get-workflow-origin.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/get-workflow-origin.yml) [![Get Workflow Origin Information](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/get-workflow-origin-run.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/get-workflow-origin-run.yml)
+
+[Get Workflow Origin](https://github.com/potiuk/get-workflow-origin): Github Action to provide information about the pull requests that triggered the workflow for the `pull_request` and `pull_request_review` events or for the `workflow_run` event that is triggered by one of those events.
 
 [![Github Script](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/github-script.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/github-script.yml)
 
