@@ -31,6 +31,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ## 🌐 Global Actions
 
+[![Action Cond](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/action-cond.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/action-cond.yml)
+
+[Action Cond](https://github.com/marketplace/actions/conditional-value-for-github-action): GitHub Action to use a `if-else` operation when needed, to set dynamic configuration of other steps.
+
 [![Add Label](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-label.yml)
 
 [Add Label](https://github.com/marketplace/actions/actions-ecosystem-add-labels): GitHub Action to add GitHub labels to an issue or a pull request.
