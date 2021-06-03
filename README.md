@@ -91,6 +91,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Github Script](https://github.com/marketplace/actions/github-script): Github Action to make it easy to quickly write a script in your workflow that uses the GitHub API and the workflow run context.
 
+[![Gitleaks](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/gitleaks.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/gitleaks.yml)
+
+[Gitleaks](https://github.com/marketplace/actions/gitleaks): Github Action to detect hardcoded secrets like passwords, api keys, and tokens in git repos.
+
 [![Horusec](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/horusec.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/horusec.yml)
 
 [Horusec](https://github.com/marketplace/actions/horusec): Github Action to identify vulnerabilities in your project.
