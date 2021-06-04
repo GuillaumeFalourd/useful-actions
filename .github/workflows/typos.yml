@@ -15,13 +15,13 @@ jobs:
       run: echo "The quick brown foxx jumped over the slepy dog." > file.txt 
     - name: Test force pass with mistakes
       continue-on-error: true
-      uses: crate-ci/typos@master
+      uses: crate-ci/typos@v1.0.4
       with: 
         files: ./file.txt
 
     - name: Prepare file with no mistakes.
       run: echo "The quick brown fox jumped over the sleepy dog." > file.txt 
     - name: Test force pass with no mistakes
-      uses: crate-ci/typos@master
+      uses: crate-ci/typos@v1.0.4
       with: 
         files: ./file.txt
