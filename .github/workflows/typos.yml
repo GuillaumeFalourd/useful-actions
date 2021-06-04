@@ -14,7 +14,6 @@ jobs:
     - name: Prepare file with mistakes.
       run: echo "The quick brown foxx jumped over the slepy dog." > file.txt 
     - name: Test force pass with mistakes
-      continue-on-error: true
       uses: crate-ci/typos@v1.0.4
       with: 
         files: ./file.txt
