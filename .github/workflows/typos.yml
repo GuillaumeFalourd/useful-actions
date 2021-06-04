@@ -17,11 +17,11 @@ jobs:
       continue-on-error: true
       uses: crate-ci/typos@master
       with: 
-        files: file.txt
+        files: ./file.txt
 
     - name: Prepare file with no mistakes.
       run: echo "The quick brown fox jumped over the sleepy dog." > file.txt 
     - name: Test force pass with no mistakes
       uses: crate-ci/typos@master
       with: 
-        files: file.txt
+        files: ./file.txt
