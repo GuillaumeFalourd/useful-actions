@@ -103,6 +103,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Horusec](https://github.com/marketplace/actions/horusec): Github Action to identify vulnerabilities in your project.
 
+[![Paths Filter](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/paths-filter.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/paths-filter.yml)
+
+[Paths Filter](https://github.com/marketplace/actions/paths-changes-filter): Github Action that enables conditional execution of workflow steps and jobs, based on the files modified by pull request, on a feature branch, or by the recently pushed commits.
+
 [![Pull Request](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/pull-request.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/pull-request.yml)
 
 [Pull Request](https://github.com/marketplace/actions/github-pull-request-action): GitHub Action to create pull requests automatically.
