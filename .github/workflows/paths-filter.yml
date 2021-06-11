@@ -3,7 +3,7 @@ name: Paths Filter
 on: [push, workflow_dispatch]
 
 jobs:
-  tests:
+  paths-filter:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
