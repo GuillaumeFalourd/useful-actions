@@ -39,6 +39,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Add Label](https://github.com/marketplace/actions/actions-ecosystem-add-labels): GitHub Action to add GitHub labels to an issue or a pull request.
 
+[![Add Reviewers](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-reviewers.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/add-reviewers.yml)
+
+[Add Reviewers](https://github.com/marketplace/actions/add-reviewers): Github action that adds Reviewers to the Pull Request.
+
 [![App Token](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/app-token.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/app-token.yml)
 
 [App Token](https://github.com/marketplace/actions/github-app-token): Github Action to impersonate a GitHub App when `secrets.GITHUB_TOKEN`'s limitations are too restrictive and a personal access token is not suitable.
