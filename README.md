@@ -53,7 +53,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [![Auto Assign](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-assign.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-assign.yml)
 
-[Auto Assign](https://github.com/marketplace/actions/auto-assign-action): Github Action to add reviewers and assignees to a pull request when the pull request is opened (needs [auto_assign.yml configuration file](https://github.com/GuillaumeFalourd/useful-actions/actions/auto_assign.yml)).
+[Auto Assign](https://github.com/marketplace/actions/auto-assign-action): Github Action to add reviewers and assignees to a pull request when opened (needs [auto_assign.yml](https://github.com/GuillaumeFalourd/useful-actions/actions/auto_assign.yml) configuration file).
 
 [![Auto Assign Author](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-assign-author.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-assign-author.yml)
 
