@@ -91,6 +91,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Env Vars](https://github.com/marketplace/actions/github-environment-variables-action): GitHub action to expose useful environment variables.
 
+[![File Existence](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/file-existence.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/file-existence.yml)
+
+[File Existence](https://github.com/marketplace/actions/file-existence): Github Action to check if files exists or not.
+
 [![First Interaction](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/first-interaction.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/first-interaction.yml)
 
 [First Interaction](https://github.com/marketplace/actions/first-interaction): Github Action to filter pull requests and issues from first-time contributors.
