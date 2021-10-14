@@ -27,6 +27,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ## 🔎 Useful Actions
 
+[![retry action](https://github.com/Wandalen/wretry.action/actions/workflows/StandardPush.yml)](https://github.com/Wandalen/wretry.action/actions/workflows/StandardPush.yml)
+
+[retry action](https://github.com/marketplace/actions/retry-action): GitHub Action to rerun another GitHub Actions and commands.
+
 ***
 
 ## 🌐 Global Actions
