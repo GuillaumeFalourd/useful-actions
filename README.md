@@ -27,10 +27,6 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ## 🔎 Useful Actions
 
-[![retry action](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/retry-action.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/retry-action.yml)
-
-[retry action](https://github.com/marketplace/actions/retry-action): GitHub Action to rerun another GitHub Actions and commands.
-
 ***
 
 ## 🌐 Global Actions
@@ -152,6 +148,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 [![Repository-Dispatch](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repository-dispatch.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repository-dispatch.yml) [![Repository-Dispatch-Triggered](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repository-dispatch-triggered.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repository-dispatch-triggered.yml)
 
 [Repository-Dispatch](https://github.com/marketplace/actions/repository-dispatch): GitHub Action to create a repository dispatch event.
+
+[![Retry Action](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/retry-action.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/retry-action.yml)
+
+[Retry Action](https://github.com/marketplace/actions/retry-action): GitHub Action to rerun another GitHub Actions and commands.
 
 [![Super Linter](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/super-linter.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/super-linter.yml)
 
