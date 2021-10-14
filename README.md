@@ -202,3 +202,10 @@ This tool can be used to test actions locally: [Act](https://github.com/nektos/a
 ## 🤝 Contribution
 
 Would like to contribute to the repository? Here are the [guidelines](CONTRIBUTING.md) 🚀
+
+
+<a href="https://github.com/GuillaumeFalourd/useful-actions/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GuillaumeFalourd/useful-actions" />
+</a>
+
+(Made with [contributors-img](https://contrib.rocks))
