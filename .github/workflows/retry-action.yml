@@ -1,4 +1,4 @@
-name: wretry.action
+name: Retry Action
 
 on:
   workflow_dispatch:
