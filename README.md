@@ -27,6 +27,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ## 🔎 Useful Actions
 
+[![retry action](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/retry-action.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/retry-action.yml)
+
+[retry action](https://github.com/marketplace/actions/retry-action): GitHub Action to rerun another GitHub Actions and commands.
+
 ***
 
 ## 🌐 Global Actions
