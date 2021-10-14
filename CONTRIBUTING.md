@@ -17,4 +17,4 @@ according to the following guide:
 
 - Add new actions on the [Useful Actions section](https://github.com/GuillaumeFalourd/useful-actions#-useful-actions) on the main README file (respect an `alphabetical` order).
 
-- New actions should be associated to a workflow example on the `.github/workflows` directory, based on the official action repository.
+- New actions should be associated to a workflow example on the `.github/workflows` directory of the [Useful Actions](https://github.com/GuillaumeFalourd/useful-actions) repository, based on the official action repository examples.
