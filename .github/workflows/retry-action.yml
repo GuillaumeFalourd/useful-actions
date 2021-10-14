@@ -1,6 +1,7 @@
 name: wretry.action
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v*.*.*'
