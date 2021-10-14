@@ -18,3 +18,5 @@ according to the following guide:
 - Add new actions on the [Useful Actions section](https://github.com/GuillaumeFalourd/useful-actions#-useful-actions) on the main README file (respect an `alphabetical` order).
 
 - New actions should be associated to a workflow example on the `.github/workflows` directory of the [Useful Actions](https://github.com/GuillaumeFalourd/useful-actions) repository, based on the official action repository examples.
+
+_Observation: If the action can be triggered through a `workflow_dispacth` event, please add it to the trigger options on the workflow implementation. It will make tests easier._
