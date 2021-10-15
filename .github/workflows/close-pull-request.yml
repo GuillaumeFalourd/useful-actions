@@ -1,4 +1,4 @@
-name: Close Pull Request
+name: Close Pull Request (Workflow)
 
 on:
   pull_request_target:
