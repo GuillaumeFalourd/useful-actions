@@ -75,6 +75,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Checkout](https://github.com/marketplace/actions/checkout): Github Action to checks-out your repository under `$GITHUB_WORKSPACE`, so your workflow can access it.
 
+[![Close Pull Request](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/close-pull-request.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/close-pull-request.yml)
+
+[Close Pull Request](https://github.com/marketplace/actions/close-pull-request): Github Action to automatically close a pull request (for example if modifying _untouchable files_).
+
 [![Commit And Push](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/commit-and-push.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/commit-and-push.yml)
 
 [Commit And Push](https://github.com/marketplace/actions/git-commit-and-push): Github Action to commit and push new code to the repository.
