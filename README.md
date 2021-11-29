@@ -47,6 +47,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [App Token](https://github.com/marketplace/actions/github-app-token): Github Action to impersonate a GitHub App when `secrets.GITHUB_TOKEN`'s limitations are too restrictive and a personal access token is not suitable.
 
+[![Assert command line output](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/assert-command-line-output.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/assert-command-line-output.yml)
+
+[Assert command line output](https://github.com/marketplace/actions/assert-command-line-output): Github Action to assert / check a command line output.
+
 [![Auto approve](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-approve.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/auto-approve.yml)
 
 [Auto Approve](https://github.com/marketplace/actions/auto-approve): Github Action to automatically approve pull requests.
