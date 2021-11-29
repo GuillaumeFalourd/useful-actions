@@ -13,7 +13,6 @@ jobs:
         fetch-depth: 0
     - name: Run Horusec
       id: run_horusec
-      uses: GuillaumeFalourd/horusec-action@main
+      uses: fike/horusec-action@main
       with:
         arguments: -p="./" --ignore="**/.vscode/**, **/*.env, **/.mypy_cache/**, **/tests/**"
-      # Please, use this implementation until this PR is approved: https://github.com/fike/horusec-action/pull/4
