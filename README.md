@@ -95,6 +95,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Create Pull Request](https://github.com/marketplace/actions/create-pull-request): GitHub action to create a pull request for changes to your repository in the actions workspace.
 
+[![Debug](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/debug.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/debug.yml)
+
+[Debug](https://github.com/marketplace/actions/debug-action): GitHub action to print the environment variables and the event payload. Useful for developing or debugging GitHub Actions.
+
 [![Env Vars](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/env-vars.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/env-vars.yml)
 
 [Env Vars](https://github.com/marketplace/actions/github-environment-variables-action): GitHub action to expose useful environment variables.
