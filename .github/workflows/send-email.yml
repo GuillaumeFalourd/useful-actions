@@ -23,9 +23,9 @@ jobs:
           # Required recipients' addresses:
           to: guillaume.falourd@gmail.com
           # Required sender full name (address can be skipped):
-          from: Github Action # <user@example.com>
+          from: ${{secrets.MAIL_USERNAME}} # <user@example.com>
           # Optional whether this connection use TLS (default is true if server_port is 465)
-          secure: true
+          secure: false
           # Optional plain body:
           body: Build job of ${{github.repository}} completed successfully!
           # Optional unsigned/invalid certificates allowance:
