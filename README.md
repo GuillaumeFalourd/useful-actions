@@ -71,13 +71,13 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Branch Names](https://github.com/marketplace/actions/branch-names): Github Action to get branch or tag information without the `/ref/*` prefix.
 
-[![Cancel Workflow](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cancel-workflow.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cancel-workflow.yml)
-
-[Cancel Workflow](https://github.com/marketplace/actions/cancel-workflow-action): Github Action cancel any previous runs that are not `completed` for a given workflow. This includes runs with a status of `queued` or `in_progress`.
-
 [![Cache](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cache.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cache.yml)
 
 [Cache](https://github.com/marketplace/actions/cache): Github Action to cache dependencies and build outputs to improve workflow execution time.
+
+[![Cancel Workflow](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cancel-workflow.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cancel-workflow.yml)
+
+[Cancel Workflow](https://github.com/marketplace/actions/cancel-workflow-action): Github Action cancel any previous runs that are not `completed` for a given workflow. This includes runs with a status of `queued` or `in_progress`.
 
 [![Checkout](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/checkout.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/checkout.yml)
 
