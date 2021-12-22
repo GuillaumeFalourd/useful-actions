@@ -5,7 +5,7 @@ on: # rebuild any PRs and main branch changes
   push:
 
 jobs:
-  pre_job: # make sure the action works on a clean machine without building
+  pre_job:
     runs-on: ubuntu-latest
     outputs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
@@ -25,11 +25,11 @@ jobs:
     if: ${{ needs.pre_job.outputs.should_skip != 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo "There is nothing to do here (not skipped)"
+      - run: echo "There is something to do here (not skipped)"
 
   main_job_skipped:
     needs: pre_job
     if: ${{ needs.pre_job.outputs.should_skip == 'true' }}
     runs-on: ubuntu-latest
     steps:
-      - run: echo "There is something to do here (skipped)"
+      - run: echo "There is nothing to do here (skipped)"
