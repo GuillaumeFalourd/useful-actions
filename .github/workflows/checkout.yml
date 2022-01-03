@@ -6,7 +6,7 @@ on:
       - '*' # for all branches
       - '!dev' # Except the dev branch
   schedule:
-    - cron: "0 0 * * *" # Runs at 00:00 UTC everyday
+    - cron: "0 0 * * MON-FRI" # Runs at 00:00 UTC
   workflow_dispatch:
 
 jobs:

@@ -1,7 +1,7 @@
 name: 'Delete old artifacts'
 on:
   schedule:
-    - cron: '0 * * * *' # every day
+    - cron: '0 * * * MON-FRI'
 
 jobs:
   delete-artifacts:
@@ -11,4 +11,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           expire-in: 7days # Setting this to 0 will delete all artifacts (https://github.com/jkroso/parse-duration)
-          
