@@ -18,3 +18,4 @@ jobs:
           dst_path: /backup/
           dst_owner: GuillaumeFalourd
           dst_repo_name: poc-github-actions
+          dst_branch: main
