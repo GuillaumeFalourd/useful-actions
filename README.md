@@ -119,6 +119,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Get Workflow Origin](https://github.com/potiuk/get-workflow-origin): Github Action to provide information about the pull requests that triggered the workflow for the `pull_request` and `pull_request_review` events or for the `workflow_run` event that is triggered by one of those events.
 
+[![Git Auto Commit](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/git-auto-commit.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/git-auto-commit.yml)
+
+[Git Auto Commit](https://github.com/marketplace/actions/git-auto-commit): A GitHub Action to detect changed files during a Workflow run and to commit and push them back to the GitHub repository. By default, the commit is made in the name of "GitHub Actions" and co-authored by the user that made the last commit.
+
 [![Github Script](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/github-script.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/github-script.yml)
 
 [Github Script](https://github.com/marketplace/actions/github-script): Github Action to make it easy to quickly write a script in your workflow that uses the GitHub API and the workflow run context.
