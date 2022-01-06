@@ -18,7 +18,7 @@ jobs:
       - name: Make changes
         run: date > git-auto-commit-workflow.txt
 
-      - name: Commit txt file
+      - name: Add txt file
         run: git add git-auto-commit-workflow.txt
 
       - name: Push code
