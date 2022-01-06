@@ -1,4 +1,4 @@
-name: Git auto commit
+name: Git Auto Commit
 
 on:
   push:
