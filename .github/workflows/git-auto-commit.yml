@@ -18,6 +18,9 @@ jobs:
       - name: Make changes
         run: date > git-auto-commit-workflow.txt
 
+      - name: Commit txt file
+        run: git add git-auto-commit-workflow.txt
+
       - name: Push code
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -27,7 +30,7 @@ jobs:
 
           # Optional branch name where commit should be pushed to.
           # Defaults to the current branch.
-          # branch: feature-123
+          branch: main
 
           # Optional. Used by `git-commit`.
           # See https://git-scm.com/docs/git-commit#_options
@@ -38,7 +41,7 @@ jobs:
           # See the `pathspec`-documentation for git
           # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
           # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-          # file_pattern: .
+          file_pattern: .
 
           # Optional local file path to the repository
           # Defaults to the root of the repository
