@@ -1,4 +1,4 @@
-name: Enforce PR labels
+name: Enforce PR labels Test
 
 on:
   pull_request:
