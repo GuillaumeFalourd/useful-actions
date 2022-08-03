@@ -1,4 +1,4 @@
-name: Replace Token
+name: Create JSON
 
 on: [push, workflow_dispatch]
 
