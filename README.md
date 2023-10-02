@@ -128,6 +128,8 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Delete Artifacts](https://github.com/marketplace/actions/delete-artifact): GitHub Action to delete artifacts within a workflow run. This can be useful when artifacts are shared across jobs, but are no longer needed when the workflow is complete.
 
+[Duolingo automatic xp](https://github.com/rfoel/duolingo): GitHub action to automatically farm duolingo xp and keeps streaks going
+
 [![Enforce PR labels](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/enforce-labels.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/enforce-labels.yml)
 
 [Enforce PR labels](https://github.com/marketplace/actions/enforce-pr-labels): GitHub action to enforce assigning labels before merging PR's. Useful for generating automatic changelog and release notes with `github-release-notes`.
