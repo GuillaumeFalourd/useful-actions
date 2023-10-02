@@ -273,7 +273,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 ## 🦾 Other Tools Actions
 
-_TODO_
+[Duolingo automatic xp](https://github.com/rfoel/duolingo): GitHub action to automatically farm duolingo xp and keeps streaks going
 
 ***
 
