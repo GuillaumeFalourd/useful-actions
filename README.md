@@ -311,7 +311,8 @@ jobs:
 
 To get the `ssh` connection string, just open the workflow `Checks` tab and scroll to the bottom.
 
-_Note: If you want to continue a workflow and you are inside a upterm session, just create a empty file with the name `continue` either in the root directory or in the workspace directory by running `touch continue` or `sudo touch /continue`. Closing the terminal will also continue the workflow. However you won't be able to reconnect in that case. It's possible to detach from the terminal and not continue by first pressing C-b and then d (tmux detach command keys)._
+> [!NOTE]
+> If you want to continue a workflow and you are inside a upterm session, just create a empty file with the name `continue` either in the root directory or in the workspace directory by running `touch continue` or `sudo touch /continue`. Closing the terminal will also continue the workflow. However you won't be able to reconnect in that case. It's possible to detach from the terminal and not continue by first pressing C-b and then d (tmux detach command keys).
 
 ***
 
