@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Get branch names
         id: branch-name
-        uses: tj-actions/branch-names@v7.0.7
+        uses: tj-actions/branch-names@v9.0.0
         
       - name: Running on the default branch.
         if: steps.branch-name.outputs.is_default == 'true'
