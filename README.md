@@ -121,6 +121,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Curl](https://github.com/marketplace/actions/github-action-for-curl): GitHub Action to use the curl CLI to perform http requests.
 
+[![Codex Action](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/codex-action.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/codex-action.yml)
+
+[Codex Action](https://github.com/marketplace/actions/codex-action): GitHub Action to run OpenAI Codex CLI non-interactively in workflows, supporting API key and OAuth authentication with output capture.
+
 [![Debug](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/debug.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/debug.yml)
 
 [Debug](https://github.com/marketplace/actions/debug-action): GitHub Action to print the environment variables and the event payload. Useful for developing or debugging GitHub Actions.
