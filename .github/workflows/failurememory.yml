@@ -1,30 +1,42 @@
 name: FailureMemory
 
 on:
-  push:
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
 
 jobs:
-  fingerprint-exported-log:
+  fingerprint-failure:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - name: Create a demo log file
-        run: |
-          mkdir -p logs
-          cat <<'EOF' > logs/latest-failure.log
-          2026-04-20T05:11:01.1000000Z AssertionError: expected undefined to be defined
-          2026-04-20T05:11:01.2000000Z ##[error]AssertionError: expected undefined to be defined
-          2026-04-20T05:11:01.3000000Z error Command failed with exit code 1.
-          EOF
+      - name: Restore prior FailureMemory history
+        uses: actions/cache/restore@v4
+        with:
+          path: .failurememory
+          key: failurememory-${{ github.repository }}-${{ github.event.workflow_run.head_branch }}-${{ github.event.workflow_run.id }}
+          restore-keys: |
+            failurememory-${{ github.repository }}-${{ github.event.workflow_run.head_branch }}-
 
-      - name: Fingerprint exported log file
+      - name: Fingerprint the failing run
         id: failurememory
         uses: UnguisAI/failurememory@v0
         with:
-          fetch_mode: file
-          log_path: logs/latest-failure.log
+          fetch_mode: github
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_run_id: ${{ github.event.workflow_run.id }}
+
+      - name: Save updated FailureMemory history
+        if: ${{ always() }}
+        uses: actions/cache/save@v4
+        with:
+          path: .failurememory
+          key: failurememory-${{ github.repository }}-${{ github.event.workflow_run.head_branch }}-${{ github.run_id }}
 
       - name: Print summary
         run: |
