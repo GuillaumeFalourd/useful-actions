@@ -1,0 +1,33 @@
+name: FailureMemory
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  fingerprint-exported-log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create a demo log file
+        run: |
+          mkdir -p logs
+          cat <<'EOF' > logs/latest-failure.log
+          2026-04-20T05:11:01.1000000Z AssertionError: expected undefined to be defined
+          2026-04-20T05:11:01.2000000Z ##[error]AssertionError: expected undefined to be defined
+          2026-04-20T05:11:01.3000000Z error Command failed with exit code 1.
+          EOF
+
+      - name: Fingerprint exported log file
+        id: failurememory
+        uses: UnguisAI/failurememory@v0
+        with:
+          fetch_mode: file
+          log_path: logs/latest-failure.log
+
+      - name: Print summary
+        run: |
+          echo "fingerprint=${{ steps.failurememory.outputs.fingerprint }}"
+          echo "seen_count=${{ steps.failurememory.outputs.seen_count }}"
+          cat "${{ steps.failurememory.outputs.summary_path }}"
