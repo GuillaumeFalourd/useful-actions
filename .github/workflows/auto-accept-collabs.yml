@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetching Local Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26  # v3
       - name: Auto Accept Collabs
         uses: kbrashears5/github-action-auto-accept-collabs@857db86b3be636b6dedcb36726ec97e0139dc7d7
         with:
