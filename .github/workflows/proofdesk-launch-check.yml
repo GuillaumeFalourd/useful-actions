@@ -1,0 +1,17 @@
+name: ProofDesk Launch Check
+
+on: [push, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  launch-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check a public launch page
+        uses: SpaleRuby/proofdesk-launch-check@v0.2.1
+        with:
+          url: https://example.com
+          max-links: 0
+          fail-on: never
