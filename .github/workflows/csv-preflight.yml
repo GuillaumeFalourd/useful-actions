@@ -13,7 +13,7 @@ jobs:
       - name: Create example CSV
         run: printf '%s\n' 'sku,title,price' 'A-1,Blue mug,12.00' > "$RUNNER_TEMP/example.csv"
       - name: Check CSV structure
-        uses: softpeanut/csv-preflight@340b31bb16a4c39463be3378270ea6c628aa5461
+        uses: softpeanut/csv-preflight-action@eb04c527a46ce3bc8bfc711fde8e93ca947597ae
         with:
           path: ${{ runner.temp }}/example.csv
           normalized_path: ${{ runner.temp }}/example.normalized.csv
@@ -25,4 +25,3 @@ jobs:
           path: |
             ${{ runner.temp }}/example.normalized.csv
             ${{ runner.temp }}/example.issues.csv
-

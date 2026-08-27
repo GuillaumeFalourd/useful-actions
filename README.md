@@ -131,7 +131,7 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [![CSV Preflight](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/csv-preflight.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/csv-preflight.yml)
 
-[CSV Preflight](https://github.com/softpeanut/csv-preflight): GitHub Action to check one UTF-8 CSV for structural problems and save normalized output locally on the runner.
+[CSV Preflight](https://github.com/softpeanut/csv-preflight-action): GitHub Action to check one UTF-8 CSV for structural problems and save normalized output locally on the runner.
 
 [![Curl](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/curl.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/curl.yml)
 
