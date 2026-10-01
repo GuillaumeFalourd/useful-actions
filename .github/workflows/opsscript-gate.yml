@@ -1,0 +1,33 @@
+name: OpsScript Gate
+
+on:
+  push:
+    paths:
+      - ".github/fixtures/opsscript-gate.sh"
+      - ".github/workflows/opsscript-gate.yml"
+  pull_request:
+    paths:
+      - ".github/fixtures/opsscript-gate.sh"
+      - ".github/workflows/opsscript-gate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compatibility:
+    name: Cross-distro shell compatibility
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Run OpsScript Gate
+        uses: Mresyzz/opsscript-gate@v0.7.0
+        with:
+          script-path: .github/fixtures/opsscript-gate.sh
+          shell: auto
+          network: none
+          preset: minimal
