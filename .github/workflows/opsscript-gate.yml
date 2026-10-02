@@ -25,7 +25,7 @@ jobs:
           persist-credentials: false
 
       - name: Run OpsScript Gate
-        uses: Mresyzz/opsscript-gate@v0.7.0
+        uses: Mresyzz/opsscript-gate@v0.8.0
         with:
           script-path: .github/fixtures/opsscript-gate.sh
           shell: auto
