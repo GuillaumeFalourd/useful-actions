@@ -93,6 +93,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Cancel Workflow](https://github.com/marketplace/actions/cancel-workflow-action): Github Action cancel any previous runs that are not `completed` for a given workflow. This includes runs with a status of `queued` or `in_progress`.
 
+[![CCE GovCon Feeds](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cce-govcon-feeds.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cce-govcon-feeds.yml)
+
+[CCE GovCon Feeds](https://github.com/marketplace/actions/cce-govcon-feeds-apify): GitHub Action to run CCE Partners Apify Actors (SAM.gov opportunities, recompetes, SEC Form D raises, federal award winners) from a workflow; requires your Apify token (pay-per-event).
+
 [![Changed Files](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/changed-files.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/changed-files.yml)
 
 [Changed Files](https://github.com/marketplace/actions/changed-files): Github Action to retrieve all changed files relative to the default branch (`pull_request*` based events) or the last remote commit (`push` based event) returning the **absolute path** to all changed files from the project root.
