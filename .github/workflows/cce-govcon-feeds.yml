@@ -6,6 +6,9 @@ name: CCE GovCon Feeds
 # Needs repository secret APIFY_TOKEN. Runs bill to that Apify account under each
 # Actor's pay-per-event pricing. workflow_dispatch only so PR/push CI does not
 # fail when the secret is absent (this repo's other examples use the same pattern).
+#
+# Map the secret to a job env var: GitHub does not allow the secrets context in
+# step `if` expressions, so we test env.APIFY_TOKEN instead.
 
 on:
   workflow_dispatch:
@@ -16,9 +19,11 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
+    env:
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
     steps:
       - name: How to run
-        if: ${{ secrets.APIFY_TOKEN == '' }}
+        if: ${{ env.APIFY_TOKEN == '' }}
         run: |
           echo "Set repository secret APIFY_TOKEN, then re-run this workflow."
           echo "Runs bill to your Apify account (pay-per-event per Actor)."
@@ -26,7 +31,7 @@ jobs:
 
       - name: CCE GovCon Feeds (SAM.gov sample)
         id: feed
-        if: ${{ secrets.APIFY_TOKEN != '' }}
+        if: ${{ env.APIFY_TOKEN != '' }}
         uses: chrisgrant303/gh-action-govcon-feeds@v1
         with:
           apify-token: ${{ secrets.APIFY_TOKEN }}
