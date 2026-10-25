@@ -229,6 +229,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Paths Filter](https://github.com/marketplace/actions/paths-changes-filter): Github Action that enables conditional execution of workflow steps and jobs, based on the files modified by pull request, on a feature branch, or by the recently pushed commits.
 
+[![PDF/UA Accessibility Check](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/pdfua-accessibility-check.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/pdfua-accessibility-check.yml)
+
+[PDF/UA Accessibility Check](https://github.com/marketplace/actions/pdf-ua-accessibility-check): GitHub Action to check PDF files for PDF/UA-1 (ISO 14289) accessibility or PDF/A conformance with the veraPDF validator, with a job summary and an error annotation per failed rule. Files never leave the runner.
+
 [![Pull Request](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/pull-request.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/pull-request.yml)
 
 [Pull Request](https://github.com/marketplace/actions/github-pull-request-action): GitHub Action to create pull requests automatically.
