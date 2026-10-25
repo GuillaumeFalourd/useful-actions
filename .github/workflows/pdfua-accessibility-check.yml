@@ -1,0 +1,38 @@
+name: PDF/UA Accessibility Check
+
+on:
+  workflow_dispatch:
+    inputs:
+      pdf-url:
+        description: URL of a PDF to check (default is a veraPDF corpus file that fails one PDF/UA-1 rule)
+        required: true
+        default: https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/staging/PDF_UA-1/7.1%20General/7.1-t08-fail-a.pdf
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  pdfua-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Download the PDF
+        env:
+          PDF_URL: ${{ inputs.pdf-url }}
+        run: |
+          mkdir -p pdfs
+          curl -fsSL "$PDF_URL" -o pdfs/sample.pdf
+
+      - name: Check PDF/UA-1 conformance with veraPDF
+        id: pdfua
+        uses: nyo-agentti/pdfua-check-action@v1
+        with:
+          path: pdfs/*.pdf
+          fail-on-error: false
+
+      - name: Print outputs
+        run: |
+          echo "compliant=${{ steps.pdfua.outputs.compliant }}"
+          echo "checked=${{ steps.pdfua.outputs.checked }}"
+          echo "failed=${{ steps.pdfua.outputs.failed }}"
