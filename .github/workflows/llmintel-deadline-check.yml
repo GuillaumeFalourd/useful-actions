@@ -1,0 +1,13 @@
+name: LLM Model Deadline Check
+on:
+  pull_request:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+jobs:
+  deadline-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hivemindunit/llmintel-deadline-check@v1
+
