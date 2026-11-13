@@ -217,6 +217,11 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Issue AI Agent](https://github.com/marketplace/issue-ai-agent): GitHub Action to auto-classify, label, and reply to issues using AI (Claude/OpenAI). Detects duplicates and handles follow-up comments. BYOK.
 
+[![LLM Model Deadline Check](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/llmintel-deadline-check.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/llmintel-deadline-check.yml)
+
+[LLM Model Deadline Check](https://github.com/marketplace/actions/llm-model-deadline-check): GitHub Action that scans a repository for hard-coded LLM model IDs and warns when LLMIntel shows them deprecated or close to retirement.
+
+
 [![Manual Approval](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/manual-approval.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/manual-approval.yml)
 
 [Manual Approval](https://github.com/marketplace/actions/manual-workflow-approval): Github Action to pause a workflow and require manual approval from **one or more** approvers before continuing.
