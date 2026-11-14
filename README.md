@@ -129,6 +129,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Create Pull Request](https://github.com/marketplace/actions/create-pull-request): GitHub Action to create a pull request for changes to your repository in the actions workspace.
 
+[![cronslip](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cronslip.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/cronslip.yml)
+
+[cronslip](https://github.com/hamarshehmhmd/cronslip): GitHub Action to lint `on: schedule` cron entries (invalid cron, intervals under 5 minutes, unknown time zones, DST gaps) and report how late scheduled runs started and which scheduled runs GitHub never created.
+
 [![CSV Preflight](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/csv-preflight.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/csv-preflight.yml)
 
 [CSV Preflight](https://github.com/softpeanut/csv-preflight-action): GitHub Action to check one UTF-8 CSV for structural problems and save normalized output locally on the runner.
