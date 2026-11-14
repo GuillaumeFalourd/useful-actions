@@ -1,0 +1,18 @@
+name: Dated break check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dated-break-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Warn on dated upstream changes that hit this repository
+        uses: CyberNative-AI/dated-break-check@ed08c0e56b77769b318cba8f6163bbb04f931090 # v1.0.1
+        # Optional: fail the step when such a date is this many days away or fewer.
+        # with:
+        #   fail-within: '14'
