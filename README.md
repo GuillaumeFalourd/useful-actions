@@ -97,6 +97,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Changed Files](https://github.com/marketplace/actions/changed-files): Github Action to retrieve all changed files relative to the default branch (`pull_request*` based events) or the last remote commit (`push` based event) returning the **absolute path** to all changed files from the project root.
 
+[![Changelog to release notes](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/changelog-to-release-notes.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/changelog-to-release-notes.yml)
+
+[Changelog to release notes](https://github.com/kalmwerk/release-notes-action): GitHub Action to write GitHub release notes from the matching `CHANGELOG.md` section (Keep a Changelog, conventional-changelog, changesets), or from the Conventional Commits since the last tag when there's no changelog. No API key or sign-up.
+
 [![Checkout](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/checkout.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/checkout.yml)
 
 [Checkout](https://github.com/marketplace/actions/checkout): Github Action to checks-out your repository under `$GITHUB_WORKSPACE`, so your workflow can access it.
