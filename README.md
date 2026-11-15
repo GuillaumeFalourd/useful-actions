@@ -217,6 +217,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Issue AI Agent](https://github.com/marketplace/issue-ai-agent): GitHub Action to auto-classify, label, and reply to issues using AI (Claude/OpenAI). Detects duplicates and handles follow-up comments. BYOK.
 
+[![lockgap](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/lockgap.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/lockgap.yml)
+
+[lockgap](https://github.com/hamarshehmhmd/lockgap): GitHub Action to report what a GitHub Actions lockfile (`actions.lock`) still leaves mutable: remote reusable workflows, local actions, container images, Docker action base images, setup actions that install `latest`, and `curl | sh` in run steps.
+
 [![Manual Approval](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/manual-approval.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/manual-approval.yml)
 
 [Manual Approval](https://github.com/marketplace/actions/manual-workflow-approval): Github Action to pause a workflow and require manual approval from **one or more** approvers before continuing.
