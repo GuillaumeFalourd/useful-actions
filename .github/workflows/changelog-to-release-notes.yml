@@ -1,0 +1,21 @@
+name: Changelog to release notes
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Generate release notes (preview only)
+        id: notes
+        uses: kalmwerk/release-notes-action@v1
+        with:
+          # Only produce outputs and the job summary; don't create or edit a release.
+          update-release: false
+          create-release: false
+      - name: Show where the notes came from
+        run: echo "Notes for ${{ steps.notes.outputs.version }} from ${{ steps.notes.outputs.source }}"
