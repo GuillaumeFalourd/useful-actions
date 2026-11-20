@@ -1,0 +1,16 @@
+name: OpenTofu Updater
+
+on:
+  workflow_dispatch:
+
+jobs:
+  opentofu-updater:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: drumandbytes/opentofu-updater-action@v1
+        with:
+          dry-run: true
+          create-pr: false
