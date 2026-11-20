@@ -1,0 +1,17 @@
+name: Container & Helm Version Updater
+
+on:
+  workflow_dispatch:
+
+jobs:
+  version-updater:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: drumandbytes/argocd-gitops-updater-action@v1
+        with:
+          auto-discover: true
+          create-pr: false
+          dry-run: true
