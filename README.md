@@ -141,6 +141,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Darkmoon Pentest](https://github.com/marketplace/actions/darkmoon-pentest): GitHub Action that runs autonomous AI penetration testing (DAST) against an authorized target in CI, synthesizes SARIF for code scanning and fails the build on findings by severity. Works with the open source Darkmoon CLI (self-hosted) or the Darkmoon Pro API.
 
+[![Dated break check](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/dated-break-check.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/dated-break-check.yml)
+
+[Dated break check](https://github.com/CyberNative-AI/dated-break-check): GitHub Action to warn on pull requests, on the file and line, when a repository uses something a dated upstream change will break: an image tag that moves (such as `postgres:latest`), an API or model that shuts down, or a runner that is retired. On a weekly schedule it can fail the build once such a date is 14 days away or less. No token or account required.
+
 [![Debug](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/debug.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/debug.yml)
 
 [Debug](https://github.com/marketplace/actions/debug-action): GitHub Action to print the environment variables and the event payload. Useful for developing or debugging GitHub Actions.
