@@ -1,0 +1,23 @@
+name: cronslip
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  cron-health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Lint the on.schedule entries of this repository's workflows
+        uses: hamarshehmhmd/cronslip@01662f0c1ae238acdc3d7c25bc7cce2805f8c526 # v0.1.0
+        with:
+          command: lint
+      - name: Report late and never-created scheduled runs (last 7 days) in the job summary
+        uses: hamarshehmhmd/cronslip@01662f0c1ae238acdc3d7c25bc7cce2805f8c526 # v0.1.0
+        with:
+          command: check
+          args: --days 7
