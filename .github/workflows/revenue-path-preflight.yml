@@ -1,0 +1,31 @@
+name: Revenue Path Preflight
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create a declared capability profile
+        run: |
+          cat > revenue-profile.json <<'JSON'
+          {
+            "country": "PT",
+            "capabilities": ["github_account", "tested_product"]
+          }
+          JSON
+      - name: Check listing and payout prerequisites
+        uses: jony-claw/revenue-path-preflight@v0.1.0
+        with:
+          profile: revenue-profile.json
+          fail-if-no-payment-path: "false"
+          report: revenue-path-report.md
+      - name: Upload the preflight report
+        uses: actions/upload-artifact@v4
+        with:
+          name: revenue-path-report
+          path: revenue-path-report.md
