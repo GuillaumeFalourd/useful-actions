@@ -263,6 +263,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [![Replace Values Action](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/replace-values-action.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/replace-values-action.yml): Github Action to replace values in files (secrets or fields).
 
+[![Revenue Path Preflight](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/revenue-path-preflight.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/revenue-path-preflight.yml)
+
+[Revenue Path Preflight](https://github.com/jony-claw/revenue-path-preflight): GitHub Action to fail fast when a product has no declared, source-backed payment path, while separating listing, payout, and distribution-only blockers.
+
 [![Repo Agent Kit AGENTS.md Check](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repo-agent-kit-agents-md-check.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/repo-agent-kit-agents-md-check.yml)
 
 [Repo Agent Kit AGENTS.md Check](https://github.com/sunxiayi/agents-md-starter-kit): GitHub Action to score `AGENTS.md` readiness, add a job summary, and enforce an optional threshold without sending file contents off the runner.
