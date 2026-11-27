@@ -225,6 +225,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [NHS Score Check](https://github.com/marketplace/actions/nhs-agentic-readiness-check): GitHub Action to fetch a site's agentic readiness score from [Not Human Search](https://nothumansearch.ai) and fail the build if it drops below a minimum threshold. Similar in spirit to Lighthouse CI, but for AI-agent signals (`llms.txt`, `ai-plugin.json`, OpenAPI, MCP server, schema.org, AI-aware `robots.txt`). Useful as a CI guardrail so a regression in agent-readable metadata gets caught before merge.
 
+[![OpenTofu Updater](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/opentofu-updater.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/opentofu-updater.yml)
+
+[OpenTofu Updater](https://github.com/marketplace/actions/opentofu-updater): GitHub Action that opens pull requests to bump OpenTofu/Terraform providers, modules, Helm charts and container images.
+
 [![OpsScript Gate](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/opsscript-gate.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/opsscript-gate.yml)
 
 [OpsScript Gate](https://github.com/marketplace/actions/opsscript-gate): Run Linux shell installers across Debian, Ubuntu, and Alpine to catch runtime compatibility issues that static shell analysis cannot detect.
