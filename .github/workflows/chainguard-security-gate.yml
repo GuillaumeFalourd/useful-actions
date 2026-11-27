@@ -1,0 +1,21 @@
+name: ChainGuard Security Gate
+
+on: [workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  security-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Run ChainGuard Web3 & MCP Security Gate
+        uses: EzequielLech/chainguard-mcp@1a7c8de57e7dc116ec23ea64f11c87a35a56623c # v1.4.1
+        with:
+          path: .github/workflows
+          sarif-file: chainguard.sarif
+          fail-on-block: "false"
