@@ -117,6 +117,10 @@ This repository lists some useful generic Actions to use in your Github workflow
 
 [Compress Images](https://github.com/marketplace/actions/image-actions): Github Action to automatically compresses JPEGs, PNGs and WebPs in Pull Requests.
 
+[![Container & Helm Version Updater](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/container-helm-version-updater.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/container-helm-version-updater.yml)
+
+[Container & Helm Version Updater](https://github.com/marketplace/actions/container-helm-version-updater): GitHub Action that opens pull requests with semver-aware Helm chart and image bumps in Argo CD and Kustomize GitOps repos.
+
 [![Copycat](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/copycat.yml/badge.svg)](https://github.com/GuillaumeFalourd/useful-actions/actions/workflows/copycat.yml)
 
 [Copycat](https://github.com/marketplace/actions/copycat-action): GitHub Action to copy files from your repository to another external repository. It is also possible to copy files from/to repository Wikis.
